@@ -6,10 +6,10 @@ repositories{
 }
 
 dependencies {
-    testImplementation (
-            'org.junit.jupiter:junit-jupiter-api:5.11.4'
-    )
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+    // 👈 Add this line!
 }
+
 
 test {
     useJUnitPlatform()
